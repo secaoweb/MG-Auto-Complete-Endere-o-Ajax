@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Secao_BuscaCep>
+            <version>0.0.1</version>
+        </Secao_BuscaCep>
+    </modules>
+    <frontend>
+        <routers>
+            <buscacep>
+                <use>standard</use>
+                <args>
+                    <module>Secao_BuscaCep</module>
+                    <frontName>buscacep</frontName>
+                </args>
+            </buscacep>
+        </routers>
+    </frontend>
+</config>
